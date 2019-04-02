@@ -1,0 +1,31 @@
+[
+    {
+        "policyName": "P1",
+         "personName": "Chetan",
+         "worksFor": "Microsoft",
+         "needsAccessTo": "VM1",
+         "requestedTime": { "sign": "<", "val": "10"},
+         "policyAction": "GrantAccess",
+         "stopProcessing": "Yes"
+    },
+  
+   {
+       "policyName": "P2",
+         "personName": "Dhiraj",
+         "worksFor": "USC",
+         "needsAccessTo": "Router",
+         "requestedTime": { "sign": ">", "val": "1"},
+         "policyAction": "GrantAccess",
+         "stopProcessing": "No"
+    },
+
+    {
+        "policyName": "P3",
+         "personName": "Dhiraj",
+         "worksFor": "USC",
+         "needsAccessTo": "Router",
+         "requestedTime": { "sign": ">", "val": "10"},
+         "policyAction": "RequestApprovalFromOwner",
+         "stopProcessing": "Yes"
+    }
+]
