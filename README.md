@@ -43,45 +43,45 @@ Command: **java -jar policyeval.jar**
 
 The directory structure for your repo should look like this:
 
-  ├───.mvn
-  │   └───wrapper
-  ├───.settings
-  ├───Jar
-  ├───src
-  │   ├───main
-  │   │   ├───java
-  │   │   │   └───com
-  │   │   │       └───policyeval
-  │   │   └───resources
-  │   │       ├───static
-  │   │       └───templates
-  │   └───test
-  │       └───java
-  │           └───com
-  │               └───policyeval
-  └───target
-      ├───classes
-      │   ├───com
-      │   │   └───policyeval
-      │   ├───META-INF
-      │   │   └───maven
-      │   │       └───com.policyeval
-      │   │           └───policy-evaluation
-      │   └───static
-      ├───generated-sources
-      │   └───annotations
-      ├───generated-test-sources
-      │   └───test-annotations
-      ├───maven-archiver
-      ├───maven-status
-      │   └───maven-compiler-plugin
-      │       ├───compile
-      │       │   └───default-compile
-      │       └───testCompile
-      │           └───default-testCompile
-      ├───surefire-reports
-      └───test-classes
-          └───com
-              └───policyeval
+    ├───.mvn
+    │   └───wrapper
+    ├───.settings
+    ├───Jar
+    ├───src
+    │   ├───main
+    │   │   ├───java
+    │   │   │   └───com
+    │   │   │       └───policyeval
+    │   │   └───resources
+    │   │       ├───static
+    │   │       └───templates
+    │   └───test
+    │       └───java
+    │           └───com
+    │               └───policyeval
+    └───target
+        ├───classes
+        │   ├───com
+        │   │   └───policyeval
+        │   ├───META-INF
+        │   │   └───maven
+        │   │       └───com.policyeval
+        │   │           └───policy-evaluation
+        │   └───static
+        ├───generated-sources
+        │   └───annotations
+        ├───generated-test-sources
+        │   └───test-annotations
+        ├───maven-archiver
+        ├───maven-status
+        │   └───maven-compiler-plugin
+        │       ├───compile
+        │       │   └───default-compile
+        │       └───testCompile
+        │           └───default-testCompile
+        ├───surefire-reports
+        └───test-classes
+            └───com
+                └───policyeval
 
 Email: dramnani@usc.edu
